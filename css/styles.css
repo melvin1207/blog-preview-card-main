@@ -70,6 +70,12 @@ main{
 .card_text_title{
   font-weight: bold;
   font-size: 20px;
+  color: var(--black);
+  padding-bottom: 0.1px;
+}
+
+.card_text_title:active{
+  color: var(--yellow);
 }
 
 .card_text_paragraph{
@@ -90,7 +96,7 @@ main{
 }
 
 .card_content{
-  margin: 10px;
+  margin: 8px;
 }
 
 
