@@ -11,17 +11,38 @@
 }
 
 body{
+  margin: auto;
   font-family: 'Figtree', sans-serif;
   max-width: 1440px;
   background-color: var(--yellow);
 }
 
 main{
-  margin: 15vh 10vw;
+  margin: 20vh auto;
   background-color: var(--white);
-  width: 80%;
-  height: 70vh;
+  width: 310px;
+  height: 500px;
   border-radius: 40px;
   box-shadow: 10px 10px;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.img_container{
+  align-self: center;
+  width: 90%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.img_card{
+  border-radius: 10px;
+  width: 100%;
+}
+
+.card_job{
+  
 }
 
