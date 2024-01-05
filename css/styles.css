@@ -47,16 +47,50 @@ main{
   width: 279px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;    
+  justify-content: space-around;  
+  line-height: 1.5;  
+  margin: 5px;
 }
 
 .card_text_job{
   border-radius: 5px;
   background-color: var(--yellow);
+  text-align: center;
   font-size: 13px;
   font-weight: bold;
   width: 70px;
-  padding: 7.5px;
+  padding: 5px;
+}
+
+.card_text_date{
+  font-size: 13px;
+  font-weight: 100;
+}
+
+.card_text_title{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.card_text_paragraph{
+  font-size: 13px;
+  color: var(--grey);
+  font-weight: lighter;
+}
+
+.card_text_guy{
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.card_text_guy> img{
+  width: 40px;
+  height: 40px;
+}
+
+.card_content{
+  margin: 10px;
 }
 
 
